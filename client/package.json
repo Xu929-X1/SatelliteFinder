@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Bowei Xu",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
+}
