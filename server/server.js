@@ -40,6 +40,7 @@ io.on("connection", socket => {
             let l1 = formatter(response.data)[0].line1;
             let l2 = formatter(response.data)[0].line2;
             let satRec = satellite.twoline2satrec(l1, l2);
+            //silly
             let posAndVelo = satellite.propagate(satRec, new Date());
             posAndVelo.velocity.x = Math.floor(posAndVelo.velocity.x);
             posAndVelo.velocity.y = Math.floor(posAndVelo.velocity.y);
